@@ -1,0 +1,88 @@
+html {
+    font-size: 16px;
+  }
+  
+body {
+    background-color: white;
+  }
+
+  /*Top banner*/
+#banner {
+    height: 42rem;
+    background-image: 
+        linear-gradient(rgba(0, 0, 0, 0.6),
+        rgba(0, 0, 0, 0.6)),
+        url('https://cdn-japantimes.com/wp-content/uploads/2017/08/p19-hornyak-gachapon-a-20170820.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    filter: grayscale(100%);
+  }
+
+  /*Top banner text*/
+#banner h1 {
+    font-size: 3.75rem;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: white;
+  }
+
+#entry {
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Merriweather', serif;
+  }
+
+#entry h2{
+    font-size: 2.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+#entry h3 {
+    font-size: 2rem;
+    font-size: 1.5vw;
+    color: #999999;
+  }
+
+#subentry {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Roboto', sans-serif;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 70px;
+  }
+
+#subentry img {
+    padding-left: 10%;
+    padding-right: 10%;
+    filter: grayscale(100%);
+    width: 100%;
+    max-width: 400px;
+    min-width: auto;
+    height: auto;
+    
+}
+footer {
+    padding: 4rem 0;
+    border-top: 1px double #cecece;
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(255,255,255,1) 100%);   
+    color: #ffffff;
+    text-align: center;
+  }
+
+p {
+    font-size: 13px;
+    font-size: 1.2rem;
+    font-family: roboto;
+}
